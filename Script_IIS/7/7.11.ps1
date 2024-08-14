@@ -1,4 +1,9 @@
-﻿$result = Get-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\AES 256/256' -name 'Enabled'$resultif($result.Enabled -eq 1){    Write-Output "7.11 (L1) Ensure AES 256/256 Cipher Suite is Enabled is compliant"
+﻿$result = Get-ItemProperty -path 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Ciphers\AES 256/256' -name 'Enabled'
+$result
+
+if($result.Enabled -eq 1){
+
+    Write-Output "7.11 (L1) Ensure AES 256/256 Cipher Suite is Enabled is compliant"
 
 }
 else{
