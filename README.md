@@ -1,5 +1,5 @@
-# CIS Powershell Scripting for IIS 10
-Note: The script is performed on the Windows Server Machine itself not via connection
+### CIS Powershell Scripting for IIS 10
+Note: The script is performed on the Windows Server Machine locally
 
 Requirement:
 Windows 10 Server
